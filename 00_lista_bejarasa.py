@@ -1,10 +1,17 @@
 # gyümölcsök kiíratása
 gyumolcsok = ['alma', 'körte', 'szilva', 'barack']
 
-print()
+print(gyumolcsok)
+
+for gyumolcs in gyumolcsok:
+    print(gyumolcs)
 
 # hónapok kiíratása
 honapok = ['január', 'február','március', 'április', 'május', 'június', 'július'] 
+honapok_index = 0
+for honap in honapok:
+    print(f'{honapok_index} {honap}')
+    honapok_index += 1
 
 print()
 
